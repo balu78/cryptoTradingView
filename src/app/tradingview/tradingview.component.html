@@ -1,0 +1,18 @@
+<nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand">My Crypto Trades</a>
+      <form class="d-flex">
+        <button class="btn btn-outline-success" type="submit">My Portfolio</button>
+      </form>
+    </div>
+</nav>
+<div class="row">
+    <div class="col-md-2">
+        <ul class="list-group" *ngFor="let coin of coins">
+            <li class="list-group-item" (click)="plotGraph(coin.symbol)">{{coin.name}}</li>
+        </ul>
+    </div>
+    <div class="col-md-10">
+        <div style= "height: 600px;" id="technical-analysis"></div>
+    </div>
+</div>

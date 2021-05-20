@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "trading"
+    }
+  },
+  "defaultProject": "trading",
+  "cli": {
+    "analytics": "a3384c07-cf7b-4ae5-aa02-2de8af684442"
+  }
 }
